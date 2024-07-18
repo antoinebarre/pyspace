@@ -6,7 +6,13 @@ authors = ["Antoine Barré <antoine.barre@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">=3.10"
+vpython = "^7.6.5"
+scipy = "^1.14.0"
+urllib3 = "^2.2.2"
+ffmpeg = "^1.4"
+ffmpeg-python = "^0.2.0"
+
 
 
 [build-system]
